@@ -6,7 +6,7 @@
 
 Now it's time to cluster the songs of the **hot_songs** and **not_hot_songs** databases according to the song's audio features. For this purpose, you need to consider the following questions:
 
-* Are you going to use all the audio features? If not, which ones do you think to make more sense?
+* Are you going to use all the audio features? If not, which ones do you think that makes more sense to be used?
 * What is the optimal number of clusters (for methods that need to know this beforehand)?
 * What is the best distance to use?
 * What clustering method provides better results?
