@@ -16,7 +16,7 @@ Now it's time to cluster the songs of the **hot_songs** and **not_hot_songs** da
 
 Be aware that this process is extremely time-consuming!!! (it might take several hours in your laptop). Therefore, when testing different options, save the models into your disk in order to be able to use the best model later.  You don't want to retrain the best model again when you know what are the optimal parameters for each.
 To determine which clustering method performs best, you need to be practical and think how many clusters you might want to have alongside with a [clustering metric](https://analyticsindiamag.com/a-tutorial-on-various-clustering-evaluation-metrics/) to evaluate how good or bad the songs were clustered.
-If the number of clusters is small, the every cluster will be too generic. On the other hand, if the number of clusters is too big then each cluster it will be too specific and it will be poorly populated (this it also depend on how heterogeneous is your dataset).
+If the number of clusters is small, each cluster will be too big and generic. On the other hand, if the number of clusters is too big then each cluster it will be too specific and it will be poorly populated (this it also depend on how heterogeneous is your dataset).
 
 On the other hand, when you train your clustering model make sure to concatenate both databases together (ie: **hot_songs** and **not_hot_songs**) before. 
 If you don't combine both datasets, the clusters obtained with the **hot_songs** will be different than the ones obtained with the **not_hot_songs**
